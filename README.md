@@ -14,6 +14,8 @@ Tutorial de como rodar a aplicação.
 
 ![image](https://user-images.githubusercontent.com/20550151/65398875-04f98000-dd90-11e9-9cea-90f73893bad5.png)
 
+2. Abra o Postman, insira os dados necessários do serviço e execute para obter o resultado desejado.
+
 ### Exemplo de contrato 
 
 Exemplo de contrato do serviço `http://localhost:8080/api/contato` que insere um contato novo.
