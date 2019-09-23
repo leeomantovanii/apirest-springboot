@@ -102,7 +102,7 @@ public class ContatoResource {
 	
 	
 	@GetMapping("/inserir")
-	public void teste() {
+	public void insereDadosTeste() {
 		Telefone t = new Telefone(TelefoneType.CELULAR, 43996448899L);
 		ArrayList<Telefone> listTel= new ArrayList<Telefone>();
 		listTel.add(t);
