@@ -102,6 +102,7 @@ public class ContatoResource {
 	
 	
 	@GetMapping("/inserir")
+	@ApiOperation(value="Insere dados mocados para teste")
 	public void insereDadosTeste() {
 		Telefone t = new Telefone(TelefoneType.CELULAR, 43996448899L);
 		ArrayList<Telefone> listTel= new ArrayList<Telefone>();
