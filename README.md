@@ -7,7 +7,8 @@ Tutorial de como rodar a aplicação.
 1. Faça o clone deste projeto com `git clone https://github.com/leeomantovanii/apirest-springboot.git`
 2. Abra o projeto e instale as dependências do maven
 3. Crie o banco de dados MySQL `contatos` para o ORM criar a estrutura das tabelas e seus relacionamentos
-4. Vá no package `com.contatos.apirest` e start a aplicação na classe `ApirestApplication.java` 
+4. Altere usuário e senha do seu MySQL no arquivo `application.properties`
+5. Vá no package `com.contatos.apirest` e start a aplicação na classe `ApirestApplication.java` 
 
 ### Testando a aplicação
 
